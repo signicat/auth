@@ -6,9 +6,14 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.user
+*.Publish.xml
 
 pids
 logs
 results
+bin
+obj
+.svn
 
 npm-debug.log
