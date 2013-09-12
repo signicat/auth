@@ -1,7 +1,5 @@
-Node.js
-=======
-Depends on [saml20](https://npmjs.org/package/saml20)
-
-    https://npmjs.org/package/saml20
+Authentication
+==========
+Please refer to [Getting started with authentication](https://support.signicat.com/display/SW/Getting+started+with+authentication)
 
     
