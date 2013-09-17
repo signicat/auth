@@ -78,7 +78,7 @@ public class Auth {
 
                     // Demo code for illustration purposes.
                     // You are not required nor encouraged to use the national identity number in your cookies.
-                    response.cookie("nationalid", nationalId, 3600);
+                    response.cookie("nationalid", nationalId, 3600, true);
                     response.redirect("/granted");
 
                 }
