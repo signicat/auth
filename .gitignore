@@ -8,12 +8,14 @@ lib-cov
 *.gz
 *.user
 *.Publish.xml
+*.iml
 
 pids
 logs
 results
 bin
 obj
+target
 .svn
 
 npm-debug.log
