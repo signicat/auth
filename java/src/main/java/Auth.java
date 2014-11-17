@@ -23,7 +23,7 @@ public class Auth {
 
                 String target = request.url() + "verify";
                 String targetUrlEncoded = urlEncode(target);
-                String authenticationUrl = "https://test.signicat.com/std/method/shared/?id=nbid:demo:nb&target=" + targetUrlEncoded;
+                String authenticationUrl = "https://preprod.signicat.com/std/method/shared/?id=nbid2:demo:nb&target=" + targetUrlEncoded;
                 response.redirect(authenticationUrl);
                 return null;
 
