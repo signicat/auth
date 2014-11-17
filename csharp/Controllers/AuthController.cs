@@ -17,7 +17,7 @@ namespace Signicat.Basic.Example.Controllers
 
             string target = Url.Action("Verify", "Auth", null, Request.Url.Scheme);
             string targetUrlEncoded = Url.Encode(target);
-            string authenticationUrl = "https://test.signicat.com/std/method/shared/?id=nbid:myprofile:&target=" + targetUrlEncoded;
+            string authenticationUrl = "https://preprod.signicat.com/std/method/shared/?id=nbid2:myprofile:&target=" + targetUrlEncoded;
             return Redirect(authenticationUrl);
         }
 
