@@ -45,7 +45,6 @@ public class Auth {
                             "CN=id.signicat.com/std, OU=Signicat, O=Signicat, L=Trondheim, ST=Norway, C=NO");
                 }
 
-                configuration.setProperty("ignore.saml.replay","true");
                 // Creates the SamlFacade object that will be used to parse SAML
                 // responses
                 SamlFacade samlFacade = new SamlFacade(configuration);
